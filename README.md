@@ -31,10 +31,7 @@ The user can input the number of days (between 1 and 365) they want to forecast 
 
   ## Watch the Video
 
-<video width="640" height="360" controls>
-  <source src="https://github.com/Marxie-ops/crude_oil_web_hosting_via-ngrok/raw/main/streamlit-app-2024-12-21-10-12-79.webm" type="video/webm">
-  Your browser does not support the video tag.
-</video>
+[Click here to view the video](https://github.com/Marxie-ops/crude_oil_web_hosting_via-ngrok/blob/main/streamlit-app-2024-12-21-10-12-79.webm)
 
 
 ***App Code Explanation***
