@@ -31,7 +31,7 @@ The user can input the number of days (between 1 and 365) they want to forecast 
 
   ## ***Click the URL to interact with the model***
 
-[Click here to download & view video](https://b7f2-35-204-59-7.ngrok-free.app/)
+[Click here to download & view video]([https://b7f2-35-204-59-7.ngrok-free.app/](https://github.com/Marxie-ops/crude_oil_web_hosting_via-ngrok/blob/main/streamlit-app-2024-12-21-10-12-79.webm))
 
 ## ***Conclusion***
 
