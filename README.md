@@ -31,7 +31,7 @@ The user can input the number of days (between 1 and 365) they want to forecast 
 
   ## ***Click the URL to interact with the model***
 
-[Click Url here](https://b7f2-35-204-59-7.ngrok-free.app/)
+[Click here to download & view video](https://b7f2-35-204-59-7.ngrok-free.app/)
 
 ## ***Conclusion***
 
