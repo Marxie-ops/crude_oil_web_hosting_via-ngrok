@@ -104,28 +104,10 @@ public_url = ngrok.connect(**tunnel_config)
 # Print the public URL for the app
 print(f"Streamlit app is live at: {public_url}")
 
-## ***How to Run the App***
-Prerequisites:
 
-* Install required libraries:'pip install streamlit prophet pyngrok python-dotenv'
-Ensures my Crude_Prices_forecasting_model.pkl model file in the same directory as your script.
-* Set up ngrok:
-
-* Create a .env file in the root directory with your ngrok authentication token:
-makefile
-
-'NGROK_AUTH_TOKEN=your_ngrok_auth_token'
-Replaced my_ngrok_auth_token with the actual token generated on the ngrok dashboard.
-* Run the app:
-
-Execute the app using Streamlit:
-
-'streamlit run app.py'
-The app will start locally, and ngrok will generate a public URL to access the app.
-* Access the Public URL:
-
-After running the script, ngrok will display a public URL like:
-'Streamlit app is live at: https://xyz123.ngrok.io'
-Visit this URL in your browser to interact with the forecasting app.
 ## ***Conclusion***
-This app provides an intuitive interface for forecasting crude oil prices and visualizing trends using Prophet. With ngrok integration, the app is made easily accessible from anywhere, allowing remote access to the forecasting model.
+
+This app uses Prophet, a powerful forecasting tool, to predict future crude oil prices based on historical data. It provides users with a simple interface where they can input the number of days for which they want to generate forecasts. The app also visualizes the forecasted data, along with trend components like seasonality and holidays.
+
+By integrating ngrok, the app is made accessible remotely via a public URL, allowing users to interact with the forecasting model from anywhere. Whether you're a researcher, analyst, or enthusiast, this app offers a convenient way to explore crude oil price trends and make informed predictions based on past performance.
+
