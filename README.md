@@ -31,7 +31,7 @@ The user can input the number of days (between 1 and 365) they want to forecast 
   
 ***App Code Explanation***
 
-python code
+```python
 %%writefile app.py
 import streamlit as st
 import joblib
@@ -127,5 +127,5 @@ The app will start locally, and ngrok will generate a public URL to access the a
 After running the script, ngrok will display a public URL like:
 'Streamlit app is live at: https://xyz123.ngrok.io'
 Visit this URL in your browser to interact with the forecasting app.
-Conclusion
+## ***Conclusion***
 This app provides an intuitive interface for forecasting crude oil prices and visualizing trends using Prophet. With ngrok integration, the app is made easily accessible from anywhere, allowing remote access to the forecasting model.
